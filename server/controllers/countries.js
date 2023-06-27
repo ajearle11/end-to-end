@@ -50,7 +50,7 @@ const update = async (req, res) => {
       updatedMaterial,
       countryName
     );
-    res.status(202).send(updateCountry);
+    res.status(202).send(updatedCountry);
   } catch (err) {
     res.status(500).send({ error: "server error" });
   }

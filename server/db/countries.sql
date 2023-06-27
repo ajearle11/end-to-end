@@ -1,5 +1,5 @@
-DROP TABLE IF EXISTS country;
 DROP TABLE IF EXISTS other_cities;
+DROP TABLE IF EXISTS country;
 
 CREATE TABLE country (
     country_id INT GENERATED ALWAYS AS IDENTITY,
